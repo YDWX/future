@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://www.future.org.cn/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>武汉大学未来网——精彩看未来</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=10,IE=9">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+  <meta name="keyword" content="未来网，武大未来网，武汉大学未来网，武汉大学青年传媒集团，武大青传，青传">
+  <meta name="description" content="武汉大学未来网，武汉大学青年传媒集团官网">
+  <meta name="author" content="">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <link href="./static/style.css" rel="stylesheet">
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="http://www.future.org.cn/static/img/logo.png">
+	<script type="text/javascript" src="./static/jquery-1.11.1.min.js"></script><style type="text/css"></style>
+	<script type="text/javascript" src="./static/jquery.tools.min.js"></script>
+	<script type="text/javascript" src="./static/scripts.js"></script>
+	<script type="text/javascript">
+$(function(){
+
+	$("ul.tab").tabs(".banner .pan > a", {
+		effect:'fade',
+		rotate: true,
+		tabs:"li"
+	}).slideshow({
+		next:".arr_r",
+		prev:".arr_l",
+		autoplay:true,
+		autopause:true,
+		interval:3000
+	});
+	$("ul.tab2").tabs(".banner2 .pan2 > a", {
+		effect:'fade',
+		rotate: true,
+		tabs:"li"
+	}).slideshow({
+		next:".arr_r2",
+		prev:".arr_l2",
+		autoplay:true,
+		autopause:true,
+		interval:3000
+	});
+
+    $('#menu_btn').on('click',function(e){
+    	console.log('success');
+    	fnMenuDisplay();
+
+    })
+})
+</script>
+<link type="text/css" rel="stylesheet" href="chrome-extension://kfgmnlgjmofpiicpgohgfpeabgpmhjdp/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://kfgmnlgjmofpiicpgohgfpeabgpmhjdp/page_context.js"></script></head>
+<body gtools_scp_screen_capture_injected="true" cz-shortcut-listen="true">
+	<!--header begin-->
+	<div id="header">
+		<div id="top_msg">
+			<div id="top_msg_container">
+				<div id="top_org_icon1"><img src="./static/top_org_icon2.png"></div>
+				<div id="top_org_icon2"><img src="./static/top_org_icon1.png"></div>
+				<div id="top_msg1"><img src="./static/top_msg1.png"></div>
+				<div id="top_msg2"><img src="./static/top_msg2.png"></div>
+			</div>
+		</div>
+		<div id="logo"></div>
+		<!--menu 栏开始-->
+		<div id="menu_bar">
+            <div id='menu_btn'>
+                <div class='line'></div>
+                <div class='line line2'></div>
+                <div class='line'></div>
+            </div>
+			<ul>
+				<li>
+                    <a href="./static/武汉大学未来网——精彩看未来.html">
+					<div class="menu_content">
+						<div class="menu_text">首页</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://news.future.org.cn/category/13">
+					<div class="menu_content">
+						<div class="menu_text">通知</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://news.future.org.cn/category/15">
+					<div class="menu_content">
+						<div class="menu_text">活动</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://news.future.org.cn/category/2">
+					<div class="menu_content">
+						<div class="menu_text">新闻</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://news.future.org.cn/category/3">
+					<div class="menu_content">
+						<div class="menu_text">院系</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://young.future.org.cn/" target="_blank">
+					<div class="menu_content">
+						<div class="menu_text">珞青网</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://ebook.future.org.cn/" target="_blank">
+					<div class="menu_content">
+						<div class="menu_text">E刊</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://video.future.org.cn/" target="_blank">
+					<div class="menu_content">
+						<div class="menu_text">未来网视</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li>
+                    <a href="http://news.future.org.cn/category/4">
+					<div class="menu_content">
+						<div class="menu_text">信息服务</div>
+						<div class="menu_bg"></div>
+					</div>
+					<div class="down_icon"></div>
+                    </a>
+				</li>
+				<li style="margin: 0px">
+                    		<form id="search" action="http://news.future.org.cn/search" method="post" onsubmit="return check_search()">
+                        	<input type="submit" id="submitBtn" value="">
+                		<input type="search" id="search_content" placeholder="搜索一下..." name="search_content">
+            			</form>
+                		</li>
+			</ul>
+		</div>
+		<!--menu 栏结束-->
+	</div>
+	<!--header end-->
+	<div id="slide_pic1" class="banner">
+		<div class="wrap">
+
+			<div class="pan">
+
+                    <a target="_blank" href="http://www.future.org.cn/#" style="display: inline;" title="新年"><img src="./static/a75e54fdcaab0493fd2917e83e466e1f.jpg" width="1348" height="261" alt="新年"></a>
+
+                    <a target="_blank" href="http://www.legalinfo.gov.cn/" title="宪法日" style="display: none;"><img src="./static/9e4bd1e42842509d3d919f7f1c988d90.jpg" width="1348" height="261" alt="宪法日"></a>
+
+                    <a target="_blank" href="http://www.chain.net.cn/index.html" title="预防艾滋病" style="display: none;"><img src="./static/86d00f2135cac3d79035201cdb58246d.jpg" width="1348" height="261" alt="预防艾滋病"></a>
+
+			</div>
+			<a class="arr_l rf png"></a>
+			<a class="arr_r rf png"></a>
+			<!--缩略图,这里取消显示，需要可以向li标签里面添加img，并且display属性改为block-->
+			<ul class="tab lifl">
+
+                <li class="current"></li>
+
+                <li class=""></li>
+
+                <li class=""></li>
+
+			</ul>
+
+		</div>
+	</div>
+	<div id="content">
+		<div class="content_row">
+			<!--小轮播图片开始-->
+			<div class="content_row_left banner2" id="slide_pic2">
+				<div id="wrap2">
+					<div class="pan2">
+
+
+
+						<a target="_blank" href="http://news.future.org.cn/article/59955" style="display: inline;">
+							<img src="./static/1453373853585098.jpg" width="445" height="240" alt="">
+							<div class="small_slide_pic_bg">
+								<img src="./static/small_slide_pic_text_bg.png" alt="武汉大学2015年共青团工作总结会召开">
+							</div>
+							<div class="small_slide_pic_text">武汉大学2015年共青团工作总结会召开</div>
+						</a>
+
+						<a target="_blank" href="http://news.future.org.cn/article/59951" style="display: none;">
+							<img src="./static/1453090025470391.jpg" width="445" height="240" alt="">
+							<div class="small_slide_pic_bg">
+								<img src="./static/small_slide_pic_text_bg.png" alt="2015年暑期社会实践表彰会暨2016年寒假社会实践启动仪式举行">
+							</div>
+							<div class="small_slide_pic_text">2015年暑期社会实践表彰会暨2016年</div>
+						</a>
+
+						<a target="_blank" href="http://news.future.org.cn/article/59933" style="display: none;">
+							<img src="./static/1451547482353830.jpg" width="445" height="240" alt="">
+							<div class="small_slide_pic_bg">
+								<img src="./static/small_slide_pic_text_bg.png" alt="2016年新年音乐会交响乐专场华丽落幕">
+							</div>
+							<div class="small_slide_pic_text">2016年新年音乐会交响乐专场华丽落幕</div>
+						</a>
+
+						<a target="_blank" href="http://news.future.org.cn/article/59932" style="display: none;">
+							<img src="./static/1451545479275901.jpg" width="445" height="240" alt="">
+							<div class="small_slide_pic_bg">
+								<img src="./static/small_slide_pic_text_bg.png" alt="我校2015年学生学术科技创新活动总结表彰会举行">
+							</div>
+							<div class="small_slide_pic_text">我校2015年学生学术科技创新活动总结表</div>
+						</a>
+
+
+					</div>
+					<a class="arr_l2 rf png"></a>
+					<a class="arr_r2 rf png"></a>
+					<!--缩略图,这里取消显示，需要可以向li标签里面添加img，并且display属性改为block-->
+					<ul class="tab2 lifl">
+						<li class="current"></li>
+
+
+						<li class=""></li>
+
+						<li class=""></li>
+
+						<li class=""></li>
+
+
+					</ul>
+				</div>
+			</div>
+			<!--小轮播图片结束-->
+			<!--通知、活动板块开始-->
+			<div class="content_row_right">
+				<div class="block_menu" id="msg_act">
+					<div class="msg_act_content">
+						<div class="msg_act_text" onmousemove="showMsg()"><a href="http://news.future.org.cn/category/13">通知</a></div>
+						<div class="msg_act_bg"></div>
+					</div>
+					<div class="msg_act_content">
+						<div class="msg_act_text" onmousemove="showAct()"><a href="http://news.future.org.cn/category/15">活动</a></div>
+						<div class="msg_act_bg"></div>
+					</div>
+				</div>
+				<!--通知、活动板块文章列表 begin-->
+				<!--通知板块文章列表 begin-->
+				<div class="block_content" id="msg" style="display: block;">
+					<ul>
+
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59954">
+							<div class="list_text" title="关于召开2015年武汉大学共青团工作总结会的通知">
+                                关于召开2015年武汉大学共青团工作总结会的通知
+							</div>
+
+							<div class="list_date">2016-01-20</div>
+					</a>	</li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59953">
+							<div class="list_text" title="关于表彰2015年学生暑期社会实践活动先进集体、先进个人和公布2015年学生暑期社会实践活动优秀成果的通知">
+                                关于表彰2015年学生暑期社会实践活动先进集体、先进个人和公布2015年学生暑期社会实践活动优秀成果的通知
+							</div>
+
+							<div class="list_date">2016-01-20</div>
+					</a>	</li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59949">
+							<div class="list_text" title="武汉大学2015年基层团委工作年度评优结果公示">
+                                武汉大学2015年基层团委工作年度评优结果公示
+							</div>
+
+							<div class="list_date">2016-01-14</div>
+					</a>	</li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59947">
+							<div class="list_text" title="【转】关于举办2016“我的大学时代”湖北省青年大学生微电影创作大赛的通知">
+                                【转】关于举办2016“我的大学时代”湖北省青年大学生微电影创作大赛的通知
+							</div>
+
+							<div class="list_date">2016-01-13</div>
+					</a>	</li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59946">
+							<div class="list_text" title="关于2015年“五四红旗团委”、“五四红旗团委工作创新奖”、“五四红旗团委工作进步奖”评选工作的通知">
+                                关于2015年“五四红旗团委”、“五四红旗团委工作创新奖”、“五四红旗团委工作进步奖”评选工作的通知
+							</div>
+
+							<div class="list_date">2016-01-11</div>
+					</a>	</li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59943">
+							<div class="list_text" title="关于开展武汉大学第九届“回访母校，携手成长”专题社会实践活动的通知">
+                                关于开展武汉大学第九届“回访母校，携手成长”专题社会实践活动的通知
+							</div>
+
+							<div class="list_date">2016-01-08</div>
+					</a>	</li>
+
+
+					</ul>
+				</div>
+				<!--通知板块文章列表 end-->
+				<!--活动板块文章列表 begin-->
+				<div class="block_content" id="act" style="display: none;">
+					<ul>
+
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59926">
+							<div class="list_text" title="2015年武汉大学研究生羽毛球赛圆满落幕">2015年武汉大学研究生羽毛球赛圆满落幕</div>
+
+							<div class="list_date">2015-12-30</div>
+						</a></li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59925">
+							<div class="list_text" title="2015武汉大学学生新媒体交流论坛成功举行">2015武汉大学学生新媒体交流论坛成功举行</div>
+
+							<div class="list_date">2015-12-29</div>
+						</a></li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59924">
+							<div class="list_text" title="诗酒趁年华">诗酒趁年华</div>
+
+							<div class="list_date">2015-12-29</div>
+						</a></li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59913">
+							<div class="list_text" title="关于举办 “2015年武汉大学学生新媒体交流论坛”的通知">关于举办 “2015年武汉大学学生新媒体交流论坛”的通知</div>
+
+							<div class="list_date">2015-12-24</div>
+						</a></li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59891">
+							<div class="list_text" title="武汉大学2015年研究生篮球联赛圆满落幕">武汉大学2015年研究生篮球联赛圆满落幕</div>
+
+							<div class="list_date">2015-12-16</div>
+						</a></li>
+
+						<li>
+                            <a target="_blank" href="http://news.future.org.cn/article/59890">
+							<div class="list_text" title="武汉大学弘毅讲堂第300期——与刘道明先生对谈">武汉大学弘毅讲堂第300期——与刘道明先生对谈</div>
+
+							<div class="list_date">2015-12-16</div>
+						</a></li>
+
+
+					</ul>
+				</div>
+				<!--活动板块文章列表 end-->
+				<!--通知、活动板块文章列表 end-->
+			</div>
+			<!--通知、活动板块结束-->
+		</div>
+		<div class="content_row">
+			<!--新闻板块开始-->
+			<div class="content_row_left">
+				<div class="block_menu">
+					<div class="block_menu_content">
+						<img src="./static/news_icon.png">
+						<div class="menu_name">新闻</div>
+						<a href="http://news.future.org.cn/category/2"><div class="menu_more">更多</div></a>
+					</div>
+					<div class="block_menu_bg"></div>
+				</div>
+				<!--新闻文章列表 begin-->
+				<div class="block_content">
+					<ul>
+
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59955">
+                            <div class="list_text" title="武汉大学2015年共青团工作总结会召开">武汉大学2015年共青团工作总结会召开</div>
+                            <div class="list_date">2016-01-21</div>
+					</a>	</li>
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59952">
+                            <div class="list_text" title="我校六项目入选高校共青团“四进四信”活动优秀项目">我校六项目入选高校共青团“四进四信”活动优秀项目</div>
+                            <div class="list_date">2016-01-18</div>
+					</a>	</li>
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59951">
+                            <div class="list_text" title="2015年暑期社会实践表彰会暨2016年寒假社会实践启动仪式举行">2015年暑期社会实践表彰会暨2016年寒假社会实践启动仪式举行</div>
+                            <div class="list_date">2016-01-18</div>
+					</a>	</li>
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59945">
+                            <div class="list_text" title="校党委副书记黄泰岩参加“校领导接待学生日”活动">校党委副书记黄泰岩参加“校领导接待学生日”活动</div>
+                            <div class="list_date">2016-01-08</div>
+					</a>	</li>
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59934">
+                            <div class="list_text" title="我校大学生中国特色社会主义理论体系学习研究会入选全国百佳理论学习社团">我校大学生中国特色社会主义理论体系学习研究会入选全国百佳理论学习社团</div>
+                            <div class="list_date">2015-12-31</div>
+					</a>	</li>
+
+						<li>
+							<a target="_blank" href="http://news.future.org.cn/article/59933">
+                            <div class="list_text" title="2016年新年音乐会交响乐专场华丽落幕">2016年新年音乐会交响乐专场华丽落幕</div>
+                            <div class="list_date">2016-01-05</div>
+					</a>	</li>
+
+
+					</ul>
+				</div>
+				<!--新闻文章列表 end-->
+			</div>
+			<!--新闻板块结束-->
+			<div class="content_row_right">
+				<!--未来网视 begin-->
+				<div id="future_video">
+					<div class="block_menu">
+						<div class="block_menu_content">
+							<img src="./static/video_icon.png">
+							<div class="menu_name">未来网视</div>
+							<a target="_blank" href="http://video.future.org.cn/"><div class="menu_more">更多</div></a>
+						</div>
+						<div class="block_menu_bg"></div>
+					</div>
+
+					<div class="block_content">
+						<div id="video_row1">
+							<a target="_blank" id="video_pic3" href="http://video.future.org.cn/player/89" title="" style="background:url(&#39;./static/8f83676a7214aa1494ca066a3f9bdefa.png&#39;) no-repeat;background-size: 142px 76px;">
+								<img src="./static/play_button.png">
+							</a>
+                            <div id="video_pic_blank"></div>
+                            <a target="_blank" id="video_pic3" href="http://video.future.org.cn/player/87" title="" style="background:url(&#39;./static/fb76e4ebeb9952b66bdee15720dcc9a0.png&#39;) no-repeat;background-size: 142px 76px;">
+								<img src="./static/play_button.png">
+							</a>
+						</div>
+
+						<div id="video_row2">
+							<a target="_blank" id="video_pic3" href="http://v.qq.com/boke/page/v/0/3/v0165g1pee3.html" title="" style="background:url(&#39;./static/bdfb2369bb904d1380b14abe469e0e02.PNG&#39;) no-repeat;background-size: 142px 76px;">
+								<img src="./static/play_button.png">
+							</a>
+							<div id="video_pic_blank"></div>
+							<a target="_blank" id="video_pic3" href="http://video.future.org.cn/player/43" title="" style="background:url(&#39;./static/9fe2ccd23fd3ee539a8944363716630c.jpg&#39;) no-repeat;background-size: 142px 76px;">
+								<img src="./static/play_button.png">
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<!--未来网视 end-->
+				<!--珞青报和E刊 begin-->
+				<div id="newspaper_ebook">
+					<div class="block_menu">
+						<img src="./static/newspaperAndEbook_icon.png">
+						<div class="block_menu_content">
+							<a target="_blank" href="http://young.future.org.cn/newspaper/1">
+                                <div class="newspaper_ebook_text" onmousemove="showNewspaper()">珞青报</div>
+							</a>
+                            <a target="_blank" href="http://ebook.future.org.cn/">
+                                <div class="newspaper_ebook_text" onmousemove="showEbook()">E刊</div>
+                            </a>
+						</div>
+						<div class="block_menu_bg"></div>
+					</div>
+					<!--珞青报 begin-->
+					<div class="block_content" id="newspaper" title="最新珞青报" style="display: block;">
+						<a target="_blank" href="http://young.future.org.cn/newspaper/1" id="newspaper-href">
+                            <img src="./static/a2.png" width="136" height="161" id="newspaper-img">
+                        </a>
+					</div>
+					<!--珞青报 end-->
+					<!--E刊 begin-->
+					<div class="block_content" id="Ebook" style="display: none;">
+						<a target="_blank" href="http://ebook.future.org.cn/"><img src="./static/927.jpg" width="123" height="154"></a>
+					</div>
+					<!--E刊 end-->
+				</div>
+				<!--珞青报和E刊 end-->
+			</div>
+		</div>
+		<div class="content_row">
+			<!--新闻板块开始-->
+			<div class="content_row_left">
+				<div class="block_menu">
+					<img src="./static/department_icon.png">
+					<div class="block_menu_content">
+						<div class="menu_name">院系</div>
+                        <a href="http://news.future.org.cn/category/3">
+						<div class="menu_more">更多</div>
+                        </a>
+					</div>
+					<div class="block_menu_bg"></div>
+				</div>
+				<!--院系文章列表 begin-->
+				<div class="block_content">
+					<ul>
+
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59944" title="【土建】同世界迎接未来">【土建】同世界迎接未来</a>
+							<a class="list_date">2016-01-08</a>
+						</li>
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59940" title="【口腔】口院晚会庆双旦 精彩欢乐聚一堂">【口腔】口院晚会庆双旦 精彩欢乐聚一堂</a>
+							<a class="list_date">2016-01-01</a>
+						</li>
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59939" title="【化院】“泉塘筑梦”公益团队喜获“强国杯”全国大学生 社会实践评选活动优秀团队">【化院】“泉塘筑梦”公益团队喜获“强国杯”全国大学生 社会实践评选活动优秀团队</a>
+							<a class="list_date">2016-01-01</a>
+						</li>
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59938" title="【哲院】哲学学院“坚定共产主义信念，接续民族复兴梦想” 征文比赛成功举办">【哲院】哲学学院“坚定共产主义信念，接续民族复兴梦想” 征文比赛成功举办</a>
+							<a class="list_date">2016-01-01</a>
+						</li>
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59937" title="【动机】追忆红色足迹，缅怀革命先驱">【动机】追忆红色足迹，缅怀革命先驱</a>
+							<a class="list_date">2016-01-01</a>
+						</li>
+
+						<li>
+							<a target="_blank" class="list_text" href="http://news.future.org.cn/article/59936" title="【动机】桌椅吱吱，不再烦恼——创意工具，吱吱克星">【动机】桌椅吱吱，不再烦恼——创意工具，吱吱克星</a>
+							<a class="list_date">2016-01-01</a>
+						</li>
+
+
+					</ul>
+				</div>
+				<!--院系文章列表 end-->
+			</div>
+			<!--院系板块结束-->
+			<div class="content_row_right">
+				<!--学生组织板块开始-->
+				<div id="student_orgs">
+					<div class="block_menu">
+						<div class="block_menu_content">
+							<img src="./static/student_orgs_icon.png">
+							<div class="menu_name">学生组织</div>
+						<!--	<div class="menu_more">更多</div> -->
+						</div>
+						<div class="block_menu_bg"></div>
+					</div>
+					<div class="block_content">
+						<div class="student_orgs_row">
+							<a target="_blank" class="student_orgs_item" title="学生会" href="http://su.whu.edu.cn/"><img src="./static/1.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="研究生会" href="http://gu.whu.edu.cn/"><img src="./static/2.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="学生社团联合会" href="http://society.whu.edu.cn/"><img src="./static/3.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="学生团委副书记联席会"><img src="./static/4.png"></a>
+						</div>
+						<div class="student_orgs_row">
+							<a target="_blank" class="student_orgs_item" title="青年志愿者协会"><img src="./static/5.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="大学生中国特色社会主义理论体系学习研究会"><img src="./static/6.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="青年传媒集团"><img src="./static/7.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="大学生创新实践中心"><img src="./static/8.png"></a>
+						</div>
+						<div class="student_orgs_row">
+							<a target="_blank" class="student_orgs_item" title="青年发展咨询与服务中心"><img src="./static/9.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="大学生文化艺术协会"><img src="./static/10.png"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="团校秘书长联席会"><img src="./static/mishuzhanglianxihui.jpg"></a>
+							<div class="student_orgs_RBlank"></div>
+							<a target="_blank" class="student_orgs_item" title="青年联合会"><img src="./static/12.png"></a>
+						</div>
+					</div>
+				</div>
+				<!--学生组织板块结束-->
+				<!--专题板块开始-->
+				<div id="special_subject">
+					<div class="block_menu">
+						<div class="block_menu_content">
+							<img src="./static/special_icon.png">
+							<div class="menu_name">专题</div>
+							<div class="menu_more">更多</div>
+						</div>
+						<div class="block_menu_bg"></div>
+					</div>
+					<div class="block_content">
+						<div class="special_subject_item">
+							<a target="_blank" href="http://news.future.org.cn/article/58200"><img src="./static/special_subject_bg1.png"></a>
+						</div>
+						<div class="special_subject_item">
+							<a><img src="./static/special_subject_bg2.png"></a>
+						</div>
+					</div>
+				</div>
+				<!--专题板块结束-->
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer_content">
+			<div class="footer_item1">
+				<div class="footer_item1_title">相关链接</div>
+				<div class="footer_item1_content">
+					<a target="_blank" href="http://tdh.future.org.cn/">武汉大学第十三次团代会</a>
+					<a target="_blank" href="http://www.ccyl.org.cn/">中国共青团</a>
+				<!--	<a target="_blank" href="http://www.youth.cn/">中国青年网</a> -->
+					<a target="_blank" href="http://www.hbgqt.org.cn/">湖北共青团</a>
+					<a target="_blank" href="http://www.univs.cn/">教育部大学生在线</a>
+					<a target="_blank" href="http://www.whu.edu.cn/">武汉大学</a>
+
+				</div>
+			</div>
+			<div id="footer_division1"></div>
+			<div class="footer_item1">
+				<div class="footer_item1_title">信息服务</div>
+				<div class="footer_item1_content">
+					<a target="_blank" href="http://hall.future.org.cn/">场地管理系统</a>
+					<a target="_blank" href="http://news.future.org.cn/article/58159">常用下载</a>
+					<a target="_blank" href="http://info.whu.edu.cn/bmxxgk/tw.htm">信息公开</a>
+                    <a href="http://www.future.org.cn/login">首页管理</a>
+					<a target="_blank" href="http://news.future.org.cn/login">未来网后台管理系统</a>
+				</div>
+			</div>
+			<div id="footer_item2">
+				<div id="footer_item2_title">
+					<div id="footer_item2_text">微平台</div>
+					<div id="footer_item2_icon" onmouseover="showMicroPlatform()" onmouseout="showCopyright()"></div>
+				</div>
+				<!--copyright info -->
+				<div id="footer_item2_copyright">
+					<div>Copyright©2001-2015 All Right Reserved 版权所有 武汉大学未来网</div>
+					<div>主办单位 共青团武汉大学委员会|鄂ICP备 06009949</div>
+					<div>联系我们：qingchuanxingzheng@163.com</div>
+					<div>技术支撑：武汉大学青年传媒集团技术中心 &amp; 页面设计：SPRING INNO.团队</div>
+
+				</div>
+				<!--微平台 info-->
+				<div id="footer_item2_microPlatform">
+					<div id="footer_item2_microPlatform_content">
+						<div class="footer_item2_microPlatform_item">
+							<div class="footer_item2_microPlatform_item_img">
+								<img src="./static/microPlatform1.png">
+							</div>
+							<div class="footer_item2_microPlatform_item_text">青梅客户端</div>
+						</div>
+						<!--<div class="footer_item2_microPlatform_item">
+							<div class="footer_item2_microPlatform_item_img">
+								<img src="/static/img/microPlatform2.png" />
+							</div>
+							<div class="footer_item2_microPlatform_item_text">武大小青媒</div>
+						</div>
+						--><div class="footer_item2_microPlatform_item">
+							<div class="footer_item2_microPlatform_item_img">
+								<img src="./static/microPlatform3.png">
+							</div>
+							<div class="footer_item2_microPlatform_item_text">武大团委微博</div>
+						</div>
+						<div class="footer_item2_microPlatform_item">
+                                                        <div class="footer_item2_microPlatform_item_img">
+                                                                <img src="./static/microPlatform4.png">
+                                                        </div>
+                                                        <div class="footer_item2_microPlatform_item_text">青春珞珈</div>
+                                                </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <div style="display:none"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252931211'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1252931211' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1252931211"><a href="http://www.cnzz.com/stat/website.php?web_id=1252931211" target="_blank" title="站长统计">站长统计</a></span><script src="./static/z_stat.php" type="text/javascript"></script><script src="./static/core.php" charset="utf-8" type="text/javascript"></script></div>
+<script src="./static/newest"></script>
+    <script>
+    if('newspaper' in data){
+		var newspaper = data['newspaper'];
+        $('#newspaper-href').attr('href', "http://young.future.org.cn/" + newspaper['src']);
+        $('#newspaper-img').attr("src", "http://young.future.org.cn/" + newspaper['img']);
+        $('#newspaper').attr("title", newspaper['title']);
+    }
+    var i = 0;
+    setInterval(function(){
+        $('.msg_act_text')[i % 2].onmousemove();
+        i += 1;
+        console.log(i)
+    }, 3000);
+</script>
+
+
+
+  <div id="window-resizer-tooltip" style="display: block; opacity: 0.952414;"><a href="http://www.future.org.cn/#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1600</span> x <span class="tooltipHeight" id="winHeight">860</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1600</span> x <span class="tooltipHeight" id="vpHeight">731</span></div></body></html>
